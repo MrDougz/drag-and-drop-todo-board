@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="boards">
+        <div class="board" id="todo">
+            <h3>Todo</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status"></div>
+                    <div class="content">Learn TypeScript</div>
+                </div>
+            </div>
+        </div>
+        <div class="board" id="progress">
+            <h3>In Progress</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status"></div>
+                    <div class="content">Walk the dog</div>
+                </div>
+            </div>
+        </div>
+        <div class="board" id="done">
+            <h3>Done</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status"></div>
+                    <div class="content">Code</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>

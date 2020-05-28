@@ -1,0 +1,72 @@
+html{
+    font-family: 'Nunito', 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #130f0d;
+    color: white;
+}
+.boards{
+    display: flex;
+}
+.board{
+    background-color: #141316;
+    border: 1px solid #Fd951F11;
+    border-radius: 4px;
+    margin: 0 16px;
+}
+.board h3{
+    padding: 16px;
+    margin: 0;
+    color: #FD951Fcc;
+}
+.dropzone{
+    padding: 16px;
+    min-width: 282px;
+    min-height: 200px;
+}
+.card{
+    padding: 16px;
+    box-shadow: 0 2px  2px -1px #FD951Fcc;
+    width: 250px;
+    margin: 25px 0;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    background: #1a1a1c;
+}
+.status{
+    width: 30px;
+    height: 8px;
+    background: gray;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.highlight{
+    background-color: #Fd951F08;
+}
+.card, .dropzone{
+    transition: 300ms;
+}
+.is-dragging{
+    cursor: move;
+    opacity: 0.3;
+}
+.over{
+    background-color: #4cd13711;
+}
+.status-color-first .status{
+    background: red;
+    transition: 200ms;
+}
+.status-color-second .status{
+    background: #23d2ac;
+    transition: 200ms;
+}
+.status-color-third .status{
+    background: #63bd63;
+    transition: 200ms;
+}
+
+/* #23d2ac */
